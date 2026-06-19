@@ -1,0 +1,12 @@
+{
+  "description": "A complete, well-written spec passes validation with no errors",
+  "expect_valid": true,
+  "expect_rules": [],
+  "reject_rules": [
+    "missing-title",
+    "missing-section",
+    "code-block-in-spec",
+    "implementation-detail",
+    "placeholder-text"
+  ]
+}

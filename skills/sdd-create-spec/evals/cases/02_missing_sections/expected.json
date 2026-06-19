@@ -1,0 +1,10 @@
+{
+  "description": "Spec missing Non-Goals and User Stories sections fails validation",
+  "expect_valid": false,
+  "expect_rules": ["missing-section"],
+  "reject_rules": [
+    "code-block-in-spec",
+    "implementation-detail",
+    "placeholder-text"
+  ]
+}
