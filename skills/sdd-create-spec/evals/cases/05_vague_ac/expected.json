@@ -1,0 +1,12 @@
+{
+  "description": "Spec with vague acceptance criteria (no Given/When/Then and no checkboxes) triggers warnings",
+  "expect_valid": true,
+  "expect_rules": ["acceptance-criteria-format", "acceptance-criteria-count"],
+  "reject_rules": [
+    "missing-title",
+    "missing-section",
+    "code-block-in-spec",
+    "implementation-detail",
+    "placeholder-text"
+  ]
+}

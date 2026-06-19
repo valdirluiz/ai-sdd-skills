@@ -1,0 +1,10 @@
+{
+  "description": "Spec with TODO, PLACEHOLDER, FIXME, and ellipsis placeholders fails validation",
+  "expect_valid": false,
+  "expect_rules": ["placeholder-text"],
+  "reject_rules": [
+    "missing-title",
+    "missing-section",
+    "code-block-in-spec"
+  ]
+}
