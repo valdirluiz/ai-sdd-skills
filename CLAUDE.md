@@ -10,6 +10,12 @@ Skills for managing Software Design Documents (SDD) with Claude Code.
 | `sdd-spec` | `/sdd-spec <folder> \| <description>` | Writes `spec.md` (WHAT to build) for an existing feature folder |
 | `sdd-plan` | `/sdd-plan <folder>` | Writes `plan.md` (HOW to build it) from an existing `spec.md` |
 
+## Other Skills
+
+| Skill | Command | Description |
+|-------|---------|-------------|
+| `boss-update` | `/boss-update <content> \| <context>` | Rewrites a conversation/update into a natural, human-sounding message for a boss or manager, applying "How to Win Friends and Influence People" principles |
+
 ## SDD Structure
 
 ```
