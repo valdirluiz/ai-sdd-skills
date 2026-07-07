@@ -9,6 +9,7 @@ Skills for managing Software Design Documents (SDD) with Claude Code.
 | `sdd` | `/sdd <feature-name>` | Orchestrates the full SDD flow — creates folder, writes spec and plan |
 | `sdd-spec` | `/sdd-spec <folder> \| <description>` | Writes `spec.md` (WHAT to build) for an existing feature folder |
 | `sdd-plan` | `/sdd-plan <folder>` | Writes `plan.md` (HOW to build it) from an existing `spec.md` |
+| `sdd-repo-onboarding` | `/sdd-repo-onboarding` | Creates `CLAUDE.md` and `agents.md` — asks questions for greenfield projects, reverse-engineers existing code for brownfield |
 
 ## Other Skills
 
